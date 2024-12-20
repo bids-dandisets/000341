@@ -30,11 +30,11 @@ assetsSummary:
   numberOfSubjects: 310
   schemaKey: AssetsSummary
   species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
-    name: Rattus norvegicus - Norway rat
-    schemaKey: SpeciesType
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
     name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
     schemaKey: SpeciesType
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
@@ -43,8 +43,8 @@ assetsSummary:
   - CurrentClampStimulusSeries
   - CurrentClampSeries
 citation: Tóth, Martin; Rózsa, Márton (2024) Temporal disparity of action potentials
-  triggered in axon initial segments and distal axons in the neocortex (Version draft)
-  [Data set]. DANDI Archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  triggered in axon initial segments and distal axons in the neocortex (Version 0.241220.1312)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000341/0.241220.1312
 contributor:
 - affiliation: []
   email: toh.martin9502@gmail.com
@@ -65,9 +65,9 @@ datePublished: '2024-12-20T13:12:31.182625+00:00'
 description: Patch-clamp recordings of Layer 1 interneurons in the human and rodent
   neocortex. Data comes from Gabor Tamas Lab (ELKH-SZTE Research Group for Cortical
   Microcircuits; University of Szeged, Hungary).
-doi: 10.80507/dandi.123456/0.123456.1234
+doi: 10.48324/dandi.000341/0.241220.1312
 ethicsApproval: []
-id: DANDI:000341/draft
+id: DANDI:000341/0.241220.1312
 identifier: DANDI:000341
 keywords:
 - Layer 1 interneurons
@@ -81,7 +81,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000341/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000341/0.241220.1312/assets.yaml
 name: Temporal disparity of action potentials triggered in axon initial segments and
   distal axons in the neocortex
 protocol:
@@ -103,6 +103,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000341/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000341/0.241220.1312
+version: 0.241220.1312
 wasGeneratedBy: []
